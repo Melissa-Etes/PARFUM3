@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/loja.js" async></script>
+</head>
+<body>
+
+    <section>
+        <h1>ESTOQUE NOVOS</h1>
+        <div class="Container-roupas" id="Container-roupas" >
+            <div class="roupa" class="prada">
+                 <img src="img/perfume7.png" alt="" class="product-image">
+                 <div class="product-price-container">
+                <p class="product-title">prada</p>
+                <h5 class="product-price">$288.00</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button type="button" class="adicionar-ao-carrinho" data-nome="prada" data-preco="288.00">Adicionar ao carrinho</button>
+                </div>
+            </div><!--roupa-->
+
+
+           <div class="roupa" class="chanel">
+            <img src="img/perfume3.jpg" alt="" class="product-image">
+          
+            <p class="product-title">chanel</p>
+            <div class="product-price-container">
+            <h5 class="product-price">$159.00</h5>
+           <span><ion-icon name="cart-outline"></ion-icon></span>
+            <button type="button" class="adicionar-ao-carrinho" data-nome="chanel" data-preco="159.00">Adicionar ao carrinho</button>
+            </div>
+        </div><!--roupa-->
+
+       <div class="roupa" class="milion">
+        <img src="img/perfume8.png" alt="" class="product-image">
+       
+        <p class="product-title">milion</p>
+       <div class="product-price-container">
+        <h5 class="product-price">$165.00</h5>
+       <ion-icon name="cart-outline"></ion-icon>
+        <button type="button" class="adicionar-ao-carrinho" data-nome="milion" data-preco="165.00">Adicionar ao carrinho</button>
+        </div>
+    </div><!--roupa-->
+
+   <div class="roupa" class="mulberry">
+     <img src="img/perfume9.png" alt="" class="product-image">
+    
+     <p class="product-title">mulberry</p>
+    <div class="product-price-container">
+     <h5 class="product-price">$154.00</h5><ion-icon name="cart-outline"></ion-icon>
+    <button type="button" class="adicionar-ao-carrinho" data-nome="mulberry" data-preco="154.00">Adicionar ao carrinho</button>
+    </div>
+</div>
+</div>
+</section>
+     <div class="carrinho">
+        <!-- Carrinho de compras -->
+        <h2>Seu Carrinho</h2>
+        <ul id="lista-de-compras"></ul>
+        <p>Total: <span id="total">0.00</span></p>
+    </div>
+</body>
+</html>
